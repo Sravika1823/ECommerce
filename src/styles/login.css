@@ -1,0 +1,171 @@
+
+        .login1 {
+            border-radius: 3.87069rem;
+            background: linear-gradient(152deg, #E3902B 4.43%, #E1C31E 95.6%);
+            box-shadow: 0px 3.303px 3.303px 0px rgba(0, 0, 0, 0.25);
+
+            /* display: flex; */
+
+            height: 46.625rem;
+            padding: 4.3125rem 2.5625rem 0rem 2.5625rem;
+            justify-content: center;
+            align-items: flex-end;
+            gap: 0.625rem;
+        }
+
+        .elegance {
+            color: #FFF;
+            font-family: 'Poppins', sans-serif;
+            font-size: 3.35456rem;
+            font-style: normal;
+            font-weight: 600;
+            text-align: left;
+            padding: 5rem 0rem 0rem 5rem;
+            line-height: 3.7rem;
+            margin-bottom: 0px;
+            /* 84.615% */
+        }
+
+        .Where {
+
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 320;
+            line-height: normal;
+            text-align: left;
+            padding: 2rem 3rem 0rem 5rem;
+        }
+
+        .loginimg {
+            width: 100%;
+            max-width: 500px;
+            /* adjust this value as needed */
+            height: auto;
+            object-fit: contain;
+            margin-top: 1rem;
+        }
+
+        .login1 {
+            /* Try a min-height instead of fixed height */
+            min-height: 20rem;
+            padding: 4.3125rem 2.5625rem 5rem 2.5625rem;
+            overflow: hidden;
+        }
+
+        .custom-input {
+            background-color: #f5f5f5;
+            /* light gray background */
+            border: none;
+            /* remove border */
+            height: 60px;
+            /* set desired height */
+            font-size: 1rem;
+            padding: 0 1rem;
+            border-radius: 1.0625rem;
+            /* optional: round corners */
+            box-shadow: none;
+            /* remove Bootstrap default focus shadow */
+        }
+
+        .custom-input:focus {
+            outline: none;
+            box-shadow: none;
+            background-color: #F3EDED;
+            /* maintain background on focus */
+        }
+
+        .custom-input::placeholder {
+            color: #999;
+            /* gray placeholder */
+            font-style: italic;
+            font-size: 0.95rem;
+        }
+
+        .custom-input {
+            background-color: #f5f5f5;
+            border: none;
+            height: 60px;
+            font-size: 1rem;
+            padding: 0 1rem;
+            border-radius: 0.375rem;
+            box-shadow: none;
+        
+            align-content: center;
+        }
+
+        .custom-input:focus {
+            outline: none;
+            box-shadow: none;
+            background-color: #f5f5f5;
+        }
+
+        .custom-input::placeholder {
+            color: #999;
+            font-style: italic;
+            font-size: 0.95rem;
+        }
+
+        .loginlogo {
+            width: 100%;
+            /* Reduce the width to 50% */
+            max-width: 60%;
+            /* Adjust the maximum width */
+            height: auto;
+
+            object-fit: contain;
+            padding-bottom: 2rem;
+            padding-top: 2rem;
+        }
+
+        .welcome {
+            color: #000;
+            font-family: sans-'Poppins', sans-serif;
+            font-size: 3rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        .please {
+
+            color: #828080;
+            text-align: center;
+            font-family: sans-'Poppins', sans-serif;
+            font-size: 1.125rem;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+
+        .loginforgot {
+            padding-left: 28rem;
+        }
+
+        .custom-btn {
+            font-family: sans-'Poppins', sans-serif;
+            /* Change to your preferred font */
+            font-size: 18px;
+            /* Adjust text size */
+            height: 60px;
+            /* Set button height */
+            padding: 10px 20px;
+            /* Optional: control spacing inside button */
+            background-color: #E2922A;
+            /* Default background */
+            color: white;
+            /* Text color */
+            border: none;
+            /* Remove default border */
+            border-radius: 8px;
+            /* Rounded corners */
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .custom-btn:hover {
+            background-color: #F0AC52;
+            /* Darker blue on hover */
+            cursor: pointer;
+            color: white;
+        }
